@@ -171,6 +171,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AcercaController.cs" />
+    <Compile Include="Controllers\CalendarController.cs" />
+    <Compile Include="Controllers\ContactoController.cs" />
+    <Compile Include="Controllers\CurriculumController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProyectoController.cs" />
@@ -291,6 +295,26 @@
     <Content Include="Views\Proyecto\Details.cshtml" />
     <Content Include="Views\Proyecto\Edit.cshtml" />
     <Content Include="Views\Proyecto\Index.cshtml" />
+    <Content Include="Views\Acerca\Create.cshtml" />
+    <Content Include="Views\Acerca\Delete.cshtml" />
+    <Content Include="Views\Acerca\Details.cshtml" />
+    <Content Include="Views\Acerca\Edit.cshtml" />
+    <Content Include="Views\Acerca\Index.cshtml" />
+    <Content Include="Views\Calendar\Create.cshtml" />
+    <Content Include="Views\Calendar\Delete.cshtml" />
+    <Content Include="Views\Calendar\Details.cshtml" />
+    <Content Include="Views\Calendar\Edit.cshtml" />
+    <Content Include="Views\Calendar\Index.cshtml" />
+    <Content Include="Views\Contacto\Create.cshtml" />
+    <Content Include="Views\Contacto\Delete.cshtml" />
+    <Content Include="Views\Contacto\Details.cshtml" />
+    <Content Include="Views\Contacto\Edit.cshtml" />
+    <Content Include="Views\Contacto\Index.cshtml" />
+    <Content Include="Views\Curriculum\Create.cshtml" />
+    <Content Include="Views\Curriculum\Delete.cshtml" />
+    <Content Include="Views\Curriculum\Details.cshtml" />
+    <Content Include="Views\Curriculum\Edit.cshtml" />
+    <Content Include="Views\Curriculum\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
