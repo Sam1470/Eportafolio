@@ -34,9 +34,16 @@
             @Html.DisplayFor(model => model.Imagen)
         </dd>
 
+
+
         <dt>
             @Html.DisplayNameFor(model => model.Empresa)
         </dt>
+
+        <dd>
+            <img src="@Url.Content($"~/Content/img/{Model.Imagen}")" alt="Imagen del Proyecto @Model.Nombre" />
+        </dd>
+
 
         <dd>
             @Html.DisplayFor(model => model.Empresa)
